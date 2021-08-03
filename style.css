@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+* {
+    font-family: 'Reem Kufi', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* html{
+    --top-spacing: 10px;
+    scroll-padding-top: var(--top-spacing);
+} */
+
+header {
+    height: 85px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    background: #f1eeea;
+    position: sticky;
+    top: 0%;
+    
+}
+
+.brand-subnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-items ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin:  0 144px; */
+}
+
+.list-items ul li {
+    list-style: none;
+    margin: 0 28px;
+}
+
+.brand-name h1 {
+    margin: 0 10px;
+}
+
+.sm-btn {
+    border: 2px solid #816843;
+    border-radius: 5px;
+    background: none;
+    color: #816843;
+    padding: 2px 23px;
+}
+
+.sm-btn:hover {
+    background: #b69b74;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main {
+    /* height: 1000px; */
+}
+
+.inner-content {
+    /* z-index: 3; */
+    /* border: 5px solid green; */
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgorund.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-content {
+    margin-top: 75px;
+    height: 400px;
+    width: 500px;
+    float: right;
+    color: #fff;
+    /* border: 2px solid crimson; */
+    overflow: hidden;
+    padding: 20px 50px;
+    margin-right: 40px;
+}
+
+.text-content h1 {
+    font-size: 60px;
+}
+
+.text-content span p {
+    margin: 20px 0 20px 0;
+    font-size: small;
+}
+
+.text {
+    margin-bottom: -25px;
+}
+
+.bg-text {
+    font-size: 21px;
+}
+
+/* <!-- landing background end here --> */
+
+/* <!-- feature page started here --> */
+
+.features {
+    height: 160px;
+    background: #f1eeea;
+    /* border: 2px solid yellow; */
+}
+
+.feature-text {
+    background: #f1eeea;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-text h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+.feature-text p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-size: medium;
+}
+
+.container {
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 220px 50px 85px 50px;
+    height: 450px;
+    row-gap: 10px;
+    column-gap: 10px;
+    background: #f1eeea;
+}
+
+.cont-item {
+    margin: 0 0px 0 25px;
+    /* background: crimson; */
+}
+
+.box1 {
+    background: url(/img/01.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.box2 {
+    background: url(/img/02.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.box3 {
+    background: url(/img/03.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.cont-item h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn {
+    margin: 10px;
+    color: #b69b74;
+    font-weight: 700;
+}
+
+/* feature page end here! */
+
+/* product page starts */
+
+.product-details {
+    background: #eee8df;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.prod-img {
+    background: url(/img/02.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin: auto 20px;
+}
+
+.prod-text h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: #343434;
+    padding: 5px 10px;
+    margin: 25px 0 0 0;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists ol {
+    margin: 40px;
+}
+
+.lists ol li {
+    /* text-align: center; */
+    font-family: 'Mulish', sans-serif;
+    margin: 10px
+}
+
+.text-fa {
+    font-family: 'Mulish', sans-serif;
+    width: 700px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    color: #343434;
+}
+
+/* product page end */
+
+/* product range page start */
+
+.cont {
+    height: 550px;
+    background: #f1eeea;
+}
+
+.prod-range {
+    display: grid;
+    background: rgb(241, 238, 234);
+    grid-template-columns: repeat(4, 290px);
+    grid-template-rows: 213px 20px 20px;
+    gap: 15px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.prod-items {
+    /* background: crimson; */
+    /* margin: 0 20px; */
+    /* border: 2px solid black; */
+    /* height: 220px; */
+}
+
+.prod-img2 {
+    width: 100%;
+    background: url(/img/pr1.jpg);
+    background-size: cover;
+}
+
+.prod-img3 {
+    width: 100%;
+    background: url(/img/pr2.png);
+    background-size: cover;
+}
+
+.prod-img4 {
+    width: 100%;
+    background: url(/img/pr3.jpg);
+    background-size: cover;
+}
+
+.prod-img5 {
+    width: 100%;
+    background: url(/img/02.jpg);
+    background-size: cover;
+}
+
+.text-format {
+    font-family: 'Mulish', sans-serif;
+    /* width: 700px; */
+    font-size: 20px;
+    font-weight: 600;
+    /* margin: auto; */
+    color: #343434;
+}
+
+.text-range {
+    font-size: 23px;
+}
+
+/* product range page end */
+
+/* product material page start */
+
+.materials {
+    /* border: 2px solid black; */
+    height: 650px;
+    background: #656b50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-text {
+    padding: 5px 30px;
+}
+
+.mat-text p {
+    /* text-align: center; */
+    width: 75%;
+    /* border: 2px solid black; */
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.mat-text h1 {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.mat-cont {
+    width: 50%;
+    /* display: flex; */
+    /* border: 2px solid black; */
+    margin: 0 40px 0 0;
+}
+
+.mat-img img {
+    /* background: url(/img/02.jpg); */
+    margin: 20px 0 20px 0;
+    /* width: 100%; */
+}
+
+.mat-img-text h4 {
+    /* font-size: px; */
+    color: #ffffff;
+    margin: 10px;
+    word-spacing: 1%;
+    letter-spacing: 2px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.mat-img-text hr {
+    border: 1px solid #b69b74;
+    background: #b69b74;
+}
+
+/* product material page start */
+
+/* why should contact page started here */
+
+.why-should {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    background: #f1eeea;
+}
+
+.left-panel h2 {
+    font-size: 70px;
+    color: #343434;
+    /* border: 2px solid black; */
+    margin: 40px 35px;
+    line-height: 1.2;
+}
+
+.left-img img {
+    margin: 0 20px;
+    /* border: 2px solid black; */
+}
+
+.right-panel {
+    /* border: 2px solid black; */
+    padding: 40px 100px;
+}
+
+.inner-right-panel {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.inner-right-panel p[a] {
+    font-family: 'Mulish', sans-serif;
+    /* width: 700px; */
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: #343434;
+    word-spacing: 1px;
+}
+
+.inner-right-panel h1 {
+    color: #343434;
+    margin-bottom: 15px;
+}
+
+.inner-right-panel ul {
+    /* margin: 0 5px; */
+}
+
+.inner-right-panel ul li {
+    margin: 10px 0 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #343434;
+    list-style: none;
+}
+
+.sm-text {
+    font-size: 15px;
+    /* margin: 30px; */
+    font-family: 'Mulish', sans-serif;
+    /* width: 700px; */
+    /* font-size: 18px; */
+    font-weight: 600;
+    margin: 73px 0px 0 0;
+    color: #343434;
+    word-spacing: 1px;
+}
+
+.inner-right-panel ul li::before {
+    content: "• ";
+    margin: 0 15px;
+    color: #b69b74;
+}
+
+/* why should contact page end here */
+
+/* end image start */
+
+.img-container {
+    height: 500px;
+}
+
+.end {
+    height: 100%;
+    background: url(/img/end.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* end image end */
+
+.left {}
+
+.left h1 {
+    font-size: 65px;
+    color: #343434;
+    margin: 30px 0 15px 40px;
+}
+
+.contact-map {
+    display: flex;
+    justify-content: space-between;
+    background: #f1eeea;
+    height: 500px;
+}
+
+iframe {
+    margin: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.right {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px 0 0 100px;
+    margin-top: 20px;
+}
+
+.right h1 {
+    font-size: 30px;
+    color: #343434;
+    margin: 30px 20px 15px 0;
+}
+
+.right p {
+    color: #343434;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.right p span {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+footer {
+    height: 100px;
+    background: #2a2525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    color: #454245;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
